@@ -1,0 +1,9 @@
+2023-03-16 11:02:26,525 INFO Starting unattended upgrades script
+2023-03-16 11:02:26,525 INFO Allowed origins are: o=Ubuntu,a=jammy, o=Ubuntu,a=jammy-security, o=UbuntuESMApps,a=jammy-apps-security, o=UbuntuESM,a=jammy-infra-security
+2023-03-16 11:02:26,525 INFO Initial blacklist: 
+2023-03-16 11:02:26,525 INFO Initial whitelist (not strict): 
+2023-03-16 11:02:27,080 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2023-03-16 11:56:31,093 INFO Starting unattended upgrades script
+2023-03-16 11:56:31,094 INFO Allowed origins are: o=Ubuntu,a=jammy, o=Ubuntu,a=jammy-security, o=UbuntuESMApps,a=jammy-apps-security, o=UbuntuESM,a=jammy-infra-security
+2023-03-16 11:56:31,094 INFO Initial blacklist: 
+2023-03-16 11:56:31,094 INFO Initial whitelist (not strict): 

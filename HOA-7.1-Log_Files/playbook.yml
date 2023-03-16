@@ -20,8 +20,13 @@
       apt:
         name: apache2
 
-    - name: Store file into /tmp/fetched/host.example.com/tmp
-      ansible.builtin.fetch:
-        src: /var/log/*
-        dest: /tmp/fetched
+    - name: Compressing log files
+      archive:
+        path: /var/log/*
+        dest: /tmp/logs.tar.gz
 
+    - name: Transfering the log files to Manage Node
+      fetch:
+        src: /tmp/logs.tar.gz
+        dest: /home/penas/Enterprise-Security/HOA-7.1-Log_files/Log_Files/
+        flat: yes

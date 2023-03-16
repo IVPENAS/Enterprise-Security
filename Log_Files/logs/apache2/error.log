@@ -1,0 +1,2 @@
+[Thu Mar 16 11:55:35.316168 2023] [mpm_event:notice] [pid 5063:tid 140656463091584] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Thu Mar 16 11:55:35.316241 2023] [core:notice] [pid 5063:tid 140656463091584] AH00094: Command line: '/usr/sbin/apache2'

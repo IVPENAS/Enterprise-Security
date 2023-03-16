@@ -1,0 +1,411 @@
+Mar 14 11:58:34 penas systemd-logind[594]: New seat seat0.
+Mar 14 11:58:34 penas systemd-logind[594]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 14 11:58:34 penas systemd-logind[594]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 14 11:58:34 penas systemd-logind[594]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 14 11:58:35 penas gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=128) by (uid=0)
+Mar 14 11:58:35 penas systemd-logind[594]: New session c1 of user gdm.
+Mar 14 11:58:35 penas systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=128) by (uid=0)
+Mar 14 11:58:37 penas polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar 14 11:58:47 penas gdm-password]: gkr-pam: unable to locate daemon control file
+Mar 14 11:58:47 penas gdm-password]: gkr-pam: stashed password to try later in open session
+Mar 14 11:58:47 penas gdm-password]: pam_unix(gdm-password:session): session opened for user penas(uid=1000) by (uid=0)
+Mar 14 11:58:47 penas systemd-logind[594]: New session 2 of user penas.
+Mar 14 11:58:47 penas systemd: pam_unix(systemd-user:session): session opened for user penas(uid=1000) by (uid=0)
+Mar 14 11:58:47 penas gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar 14 11:58:48 penas gnome-keyring-daemon[1465]: The SSH agent was already initialized
+Mar 14 11:58:48 penas gnome-keyring-daemon[1465]: The PKCS#11 component was already initialized
+Mar 14 11:58:48 penas gnome-keyring-daemon[1465]: The Secret Service was already initialized
+Mar 14 11:58:48 penas polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.78 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar 14 11:58:51 penas gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 14 11:58:51 penas systemd-logind[594]: Session c1 logged out. Waiting for processes to exit.
+Mar 14 11:58:51 penas systemd-logind[594]: Removed session c1.
+Mar 14 11:58:51 penas polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8) (disconnected from bus)
+Mar 14 11:59:00 penas dbus-daemon[574]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 14 11:59:01 penas systemd: pam_unix(systemd-user:session): session closed for user gdm
+Mar 14 11:59:52 penas pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Mar 14 11:59:52 penas pkexec[2764]: penas: Executing command [USER=root] [TTY=unknown] [CWD=/home/penas] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar 14 12:02:28 penas systemd-logind[642]: New seat seat0.
+Mar 14 12:02:28 penas systemd-logind[642]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 14 12:02:28 penas systemd-logind[642]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 14 12:02:28 penas systemd-logind[642]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 14 12:02:28 penas gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=128) by (uid=0)
+Mar 14 12:02:28 penas systemd-logind[642]: New session c1 of user gdm.
+Mar 14 12:02:28 penas systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=128) by (uid=0)
+Mar 14 12:02:32 penas polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar 14 12:02:42 penas gdm-password]: gkr-pam: unable to locate daemon control file
+Mar 14 12:02:42 penas gdm-password]: gkr-pam: stashed password to try later in open session
+Mar 14 12:02:42 penas gdm-password]: pam_unix(gdm-password:session): session opened for user penas(uid=1000) by (uid=0)
+Mar 14 12:02:42 penas systemd-logind[642]: New session 2 of user penas.
+Mar 14 12:02:42 penas systemd: pam_unix(systemd-user:session): session opened for user penas(uid=1000) by (uid=0)
+Mar 14 12:02:43 penas gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar 14 12:02:43 penas gnome-keyring-daemon[1291]: The SSH agent was already initialized
+Mar 14 12:02:43 penas gnome-keyring-daemon[1291]: The PKCS#11 component was already initialized
+Mar 14 12:02:43 penas gnome-keyring-daemon[1291]: The Secret Service was already initialized
+Mar 14 12:02:44 penas polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar 14 12:02:46 penas gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 14 12:02:46 penas systemd-logind[642]: Session c1 logged out. Waiting for processes to exit.
+Mar 14 12:02:46 penas systemd-logind[642]: Removed session c1.
+Mar 14 12:02:46 penas polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8) (disconnected from bus)
+Mar 14 12:02:54 penas dbus-daemon[623]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 14 12:02:56 penas systemd: pam_unix(systemd-user:session): session closed for user gdm
+Mar 14 12:03:50 penas pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Mar 14 12:03:50 penas pkexec[1999]: penas: Executing command [USER=root] [TTY=unknown] [CWD=/home/penas] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar 14 12:04:22 penas sudo:    penas : TTY=pts/0 ; PWD=/home/penas ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 14 12:04:22 penas sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 14 12:04:30 penas sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 12:04:49 penas sudo:    penas : TTY=pts/0 ; PWD=/home/penas ; USER=root ; COMMAND=/usr/bin/apt list --upgradable
+Mar 14 12:04:49 penas sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 14 12:04:49 penas sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 12:04:53 penas sudo:    penas : TTY=pts/0 ; PWD=/home/penas ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Mar 14 12:04:53 penas sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 14 12:06:48 penas pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Mar 14 12:06:48 penas pkexec[2740]: penas: Executing command [USER=root] [TTY=unknown] [CWD=/home/penas] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar 14 12:07:56 penas sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 12:09:42 penas sudo:    penas : TTY=pts/0 ; PWD=/home/penas ; USER=root ; COMMAND=/usr/bin/nano /etc/hostname
+Mar 14 12:09:42 penas sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 14 12:09:57 penas systemd-logind[642]: System is rebooting.
+Mar 14 12:09:58 server1 systemd-logind[643]: New seat seat0.
+Mar 14 12:09:58 server1 systemd-logind[643]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 14 12:09:58 server1 systemd-logind[643]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 14 12:09:58 server1 systemd-logind[643]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 14 12:09:59 server1 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=128) by (uid=0)
+Mar 14 12:09:59 server1 systemd-logind[643]: New session c1 of user gdm.
+Mar 14 12:09:59 server1 systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=128) by (uid=0)
+Mar 14 12:10:01 server1 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar 14 12:10:25 server1 dbus-daemon[616]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 14 12:10:39 server1 gdm-password]: gkr-pam: unable to locate daemon control file
+Mar 14 12:10:39 server1 gdm-password]: gkr-pam: stashed password to try later in open session
+Mar 14 12:10:39 server1 gdm-password]: pam_unix(gdm-password:session): session opened for user penas(uid=1000) by (uid=0)
+Mar 14 12:10:39 server1 systemd-logind[643]: New session 2 of user penas.
+Mar 14 12:10:39 server1 systemd: pam_unix(systemd-user:session): session opened for user penas(uid=1000) by (uid=0)
+Mar 14 12:10:39 server1 gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar 14 12:10:39 server1 gnome-keyring-daemon[1301]: The SSH agent was already initialized
+Mar 14 12:10:39 server1 gnome-keyring-daemon[1301]: The PKCS#11 component was already initialized
+Mar 14 12:10:39 server1 gnome-keyring-daemon[1301]: The Secret Service was already initialized
+Mar 14 12:10:40 server1 polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar 14 12:10:42 server1 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 14 12:10:42 server1 systemd-logind[643]: Session c1 logged out. Waiting for processes to exit.
+Mar 14 12:10:42 server1 systemd-logind[643]: Removed session c1.
+Mar 14 12:10:42 server1 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8) (disconnected from bus)
+Mar 14 12:11:03 server1 sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=penas rhost=  user=penas
+Mar 14 12:11:04 server1 dbus-daemon[616]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 14 12:11:07 server1 sudo:    penas : TTY=pts/0 ; PWD=/home/penas ; USER=root ; COMMAND=/usr/bin/nano /etc/hostname
+Mar 14 12:11:07 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 14 12:11:11 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 10:54:54 Server1 systemd-logind[652]: New seat seat0.
+Mar 16 10:54:54 Server1 systemd-logind[652]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 16 10:54:54 Server1 systemd-logind[652]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 16 10:54:54 Server1 systemd-logind[652]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 16 10:54:54 Server1 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=128) by (uid=0)
+Mar 16 10:54:54 Server1 systemd-logind[652]: New session c1 of user gdm.
+Mar 16 10:54:54 Server1 systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=128) by (uid=0)
+Mar 16 10:54:58 Server1 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar 16 10:55:21 Server1 dbus-daemon[627]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 16 10:58:57 Server1 gdm-password]: gkr-pam: unable to locate daemon control file
+Mar 16 10:58:57 Server1 gdm-password]: gkr-pam: stashed password to try later in open session
+Mar 16 10:58:57 Server1 gdm-password]: pam_unix(gdm-password:session): session opened for user penas(uid=1000) by (uid=0)
+Mar 16 10:58:57 Server1 systemd-logind[652]: New session 2 of user penas.
+Mar 16 10:58:57 Server1 systemd: pam_unix(systemd-user:session): session opened for user penas(uid=1000) by (uid=0)
+Mar 16 10:58:57 Server1 gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar 16 10:58:58 Server1 gnome-keyring-daemon[1383]: The PKCS#11 component was already initialized
+Mar 16 10:58:58 Server1 gnome-keyring-daemon[1383]: The SSH agent was already initialized
+Mar 16 10:58:58 Server1 gnome-keyring-daemon[1383]: The Secret Service was already initialized
+Mar 16 10:58:59 Server1 polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar 16 10:59:01 Server1 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 16 10:59:01 Server1 systemd-logind[652]: Session c1 logged out. Waiting for processes to exit.
+Mar 16 10:59:01 Server1 systemd-logind[652]: Removed session c1.
+Mar 16 10:59:01 Server1 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8) (disconnected from bus)
+Mar 16 10:59:23 Server1 dbus-daemon[627]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 16 10:59:40 Server1 sudo:    penas : TTY=pts/0 ; PWD=/home/penas ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 16 10:59:40 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 16 10:59:53 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:00:06 Server1 sudo:    penas : TTY=pts/0 ; PWD=/home/penas ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Mar 16 11:00:06 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 16 11:00:07 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:13:30 Server1 sudo:    penas : TTY=pts/0 ; PWD=/home/penas ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+Mar 16 11:13:30 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 16 11:15:57 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:16:36 Server1 sudo:    penas : TTY=pts/0 ; PWD=/home/penas ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+Mar 16 11:16:36 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 16 11:16:46 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:17:02 Server1 CRON[2818]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 16 11:17:02 Server1 CRON[2818]: pam_unix(cron:session): session closed for user root
+Mar 16 11:18:50 Server1 sudo:    penas : TTY=pts/0 ; PWD=/home/penas ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+Mar 16 11:18:50 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 16 11:19:12 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:20:45 Server1 sudo:    penas : TTY=pts/0 ; PWD=/home/penas ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+Mar 16 11:20:45 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 16 11:20:53 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:22:19 Server1 sudo:    penas : TTY=pts/0 ; PWD=/home/penas ; USER=root ; COMMAND=/usr/bin/systemctl start ssh
+Mar 16 11:22:19 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 16 11:22:19 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:22:29 Server1 sudo:    penas : TTY=pts/0 ; PWD=/home/penas ; USER=root ; COMMAND=/usr/bin/apt ssh
+Mar 16 11:22:29 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 16 11:22:29 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:22:41 Server1 sudo:    penas : TTY=pts/0 ; PWD=/home/penas ; USER=root ; COMMAND=/usr/bin/apt install ssh
+Mar 16 11:22:41 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 16 11:22:47 Server1 useradd[3110]: new user: name=sshd, UID=129, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin, from=none
+Mar 16 11:22:47 Server1 usermod[3117]: change user 'sshd' password
+Mar 16 11:22:47 Server1 chage[3124]: changed password expiry for sshd
+Mar 16 11:22:47 Server1 sshd[3225]: Server listening on 0.0.0.0 port 22.
+Mar 16 11:22:47 Server1 sshd[3225]: Server listening on :: port 22.
+Mar 16 11:22:49 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:23:04 Server1 sudo:    penas : TTY=pts/0 ; PWD=/home/penas ; USER=root ; COMMAND=/usr/bin/systemctl start ssh
+Mar 16 11:23:04 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 16 11:23:04 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:23:07 Server1 sudo:    penas : TTY=pts/0 ; PWD=/home/penas ; USER=root ; COMMAND=/usr/bin/systemctl start ssh enable
+Mar 16 11:23:07 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 16 11:23:07 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:23:13 Server1 sudo:    penas : TTY=pts/0 ; PWD=/home/penas ; USER=root ; COMMAND=/usr/bin/systemctl enable ssh
+Mar 16 11:23:13 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 16 11:23:14 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:23:33 Server1 sshd[3482]: Connection closed by authenticating user penas 192.168.56.102 port 54120 [preauth]
+Mar 16 11:23:33 Server1 sshd[3484]: Connection closed by authenticating user penas 192.168.56.102 port 55356 [preauth]
+Mar 16 11:23:37 Server1 sshd[3486]: Accepted password for penas from 192.168.56.102 port 55360 ssh2
+Mar 16 11:23:37 Server1 sshd[3486]: pam_unix(sshd:session): session opened for user penas(uid=1000) by (uid=0)
+Mar 16 11:23:37 Server1 systemd-logind[652]: New session 5 of user penas.
+Mar 16 11:23:37 Server1 sshd[3570]: Received disconnect from 192.168.56.102 port 55360:11: disconnected by user
+Mar 16 11:23:37 Server1 sshd[3570]: Disconnected from user penas 192.168.56.102 port 55360
+Mar 16 11:23:37 Server1 sshd[3486]: pam_unix(sshd:session): session closed for user penas
+Mar 16 11:23:37 Server1 systemd-logind[652]: Session 5 logged out. Waiting for processes to exit.
+Mar 16 11:23:40 Server1 systemd-logind[652]: Removed session 5.
+Mar 16 11:24:25 Server1 sshd[3602]: Accepted publickey for penas from 192.168.56.102 port 56566 ssh2: RSA SHA256:ujZKkzyfc87PMBkXTUESxKLrIho/8Iy6tTycM2m8p1U
+Mar 16 11:24:25 Server1 sshd[3602]: pam_unix(sshd:session): session opened for user penas(uid=1000) by (uid=0)
+Mar 16 11:24:25 Server1 systemd-logind[652]: New session 6 of user penas.
+Mar 16 11:24:35 Server1 sshd[3640]: Received disconnect from 192.168.56.102 port 56566:11: disconnected by user
+Mar 16 11:24:35 Server1 sshd[3640]: Disconnected from user penas 192.168.56.102 port 56566
+Mar 16 11:24:35 Server1 sshd[3602]: pam_unix(sshd:session): session closed for user penas
+Mar 16 11:24:35 Server1 systemd-logind[652]: Session 6 logged out. Waiting for processes to exit.
+Mar 16 11:24:35 Server1 systemd-logind[652]: Removed session 6.
+Mar 16 11:25:38 Server1 sshd[3653]: Accepted publickey for penas from 192.168.56.102 port 59764 ssh2: RSA SHA256:ujZKkzyfc87PMBkXTUESxKLrIho/8Iy6tTycM2m8p1U
+Mar 16 11:25:38 Server1 sshd[3653]: pam_unix(sshd:session): session opened for user penas(uid=1000) by (uid=0)
+Mar 16 11:25:38 Server1 systemd-logind[652]: New session 7 of user penas.
+Mar 16 11:25:41 Server1 sshd[3691]: Received disconnect from 192.168.56.102 port 59764:11: disconnected by user
+Mar 16 11:25:41 Server1 sshd[3691]: Disconnected from user penas 192.168.56.102 port 59764
+Mar 16 11:25:41 Server1 sshd[3653]: pam_unix(sshd:session): session closed for user penas
+Mar 16 11:25:41 Server1 systemd-logind[652]: Session 7 logged out. Waiting for processes to exit.
+Mar 16 11:25:41 Server1 systemd-logind[652]: Removed session 7.
+Mar 16 11:25:45 Server1 sshd[3700]: Accepted publickey for penas from 192.168.56.102 port 33658 ssh2: RSA SHA256:ujZKkzyfc87PMBkXTUESxKLrIho/8Iy6tTycM2m8p1U
+Mar 16 11:25:45 Server1 sshd[3700]: pam_unix(sshd:session): session opened for user penas(uid=1000) by (uid=0)
+Mar 16 11:25:45 Server1 systemd-logind[652]: New session 8 of user penas.
+Mar 16 11:26:50 Server1 sshd[3738]: Received disconnect from 192.168.56.102 port 33658:11: disconnected by user
+Mar 16 11:26:50 Server1 sshd[3738]: Disconnected from user penas 192.168.56.102 port 33658
+Mar 16 11:26:50 Server1 sshd[3700]: pam_unix(sshd:session): session closed for user penas
+Mar 16 11:26:50 Server1 systemd-logind[652]: Session 8 logged out. Waiting for processes to exit.
+Mar 16 11:26:50 Server1 systemd-logind[652]: Removed session 8.
+Mar 16 11:27:24 Server1 sudo:    penas : TTY=pts/0 ; PWD=/home/penas ; USER=root ; COMMAND=/usr/bin/apt install git
+Mar 16 11:27:24 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 16 11:27:30 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:30:04 Server1 CRON[3916]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 16 11:30:04 Server1 CRON[3916]: pam_unix(cron:session): session closed for user root
+Mar 16 11:46:31 Server1 sshd[3957]: Accepted publickey for penas from 192.168.56.102 port 36404 ssh2: RSA SHA256:ujZKkzyfc87PMBkXTUESxKLrIho/8Iy6tTycM2m8p1U
+Mar 16 11:46:31 Server1 sshd[3957]: pam_unix(sshd:session): session opened for user penas(uid=1000) by (uid=0)
+Mar 16 11:46:31 Server1 systemd-logind[652]: New session 10 of user penas.
+Mar 16 11:47:31 Server1 sshd[3995]: Received disconnect from 192.168.56.102 port 36404:11: disconnected by user
+Mar 16 11:47:31 Server1 sshd[3995]: Disconnected from user penas 192.168.56.102 port 36404
+Mar 16 11:47:31 Server1 sshd[3957]: pam_unix(sshd:session): session closed for user penas
+Mar 16 11:47:31 Server1 systemd-logind[652]: Session 10 logged out. Waiting for processes to exit.
+Mar 16 11:47:31 Server1 systemd-logind[652]: Removed session 10.
+Mar 16 11:55:20 Server1 sshd[4030]: Accepted publickey for penas from 192.168.56.102 port 49666 ssh2: RSA SHA256:ujZKkzyfc87PMBkXTUESxKLrIho/8Iy6tTycM2m8p1U
+Mar 16 11:55:21 Server1 sshd[4030]: pam_unix(sshd:session): session opened for user penas(uid=1000) by (uid=0)
+Mar 16 11:55:21 Server1 systemd-logind[652]: New session 11 of user penas.
+Mar 16 11:55:21 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-drzhpgjfbnzasosrhyrvnvfmguhkraos ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678938921.106584-6289-276845299381679/AnsiballZ_setup.py
+Mar 16 11:55:21 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 11:55:22 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:55:22 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-czgcaowmkelpxamzxnbhtbzlgsaiteuj ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678938922.1570446-6304-25467234672736/AnsiballZ_apt.py
+Mar 16 11:55:22 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 11:55:28 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:55:28 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-adfmhqsnebglsladebgzpfrcuxfqpvha ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678938928.446691-6313-50075309160829/AnsiballZ_command.py
+Mar 16 11:55:28 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 11:55:28 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:55:28 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ydkntxzpurzdgtbaxrrslkjniynzztao ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678938928.7882333-6322-256023007762712/AnsiballZ_apt.py
+Mar 16 11:55:28 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 11:55:37 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:56:37 Server1 sshd[4068]: Received disconnect from 192.168.56.102 port 49666:11: disconnected by user
+Mar 16 11:56:37 Server1 sshd[4068]: Disconnected from user penas 192.168.56.102 port 49666
+Mar 16 11:56:37 Server1 sshd[4030]: pam_unix(sshd:session): session closed for user penas
+Mar 16 11:56:37 Server1 systemd-logind[652]: Session 11 logged out. Waiting for processes to exit.
+Mar 16 11:56:37 Server1 systemd-logind[652]: Removed session 11.
+Mar 16 11:59:54 Server1 gdm-password]: gkr-pam: unlocked login keyring
+Mar 16 12:17:01 Server1 CRON[7116]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 16 12:17:01 Server1 CRON[7116]: pam_unix(cron:session): session closed for user root
+Mar 16 12:30:01 Server1 CRON[7126]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 16 12:30:01 Server1 CRON[7126]: pam_unix(cron:session): session closed for user root
+Mar 16 12:54:39 Server1 sshd[7142]: Accepted publickey for penas from 192.168.56.102 port 55180 ssh2: RSA SHA256:ujZKkzyfc87PMBkXTUESxKLrIho/8Iy6tTycM2m8p1U
+Mar 16 12:54:39 Server1 sshd[7142]: pam_unix(sshd:session): session opened for user penas(uid=1000) by (uid=0)
+Mar 16 12:54:39 Server1 systemd-logind[652]: New session 14 of user penas.
+Mar 16 12:54:40 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-myvhfeqoryzuoknpouyvtjtrfbmpaggj ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678942479.914524-7305-77337354086082/AnsiballZ_setup.py
+Mar 16 12:54:40 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 12:54:40 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:54:41 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-iwhibqgxbtlzeczmglklwkzzkuwxerka ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678942481.048867-7320-105074308437884/AnsiballZ_apt.py
+Mar 16 12:54:41 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 12:54:48 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:54:48 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xghecebuccfnqpiwhufwsqapidtjpunb ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678942488.1044888-7329-179951359346617/AnsiballZ_command.py
+Mar 16 12:54:48 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 12:54:48 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:54:48 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zynemdazbhftpwsyoqgkgbicycnigklz ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678942488.4701216-7338-175215247578622/AnsiballZ_apt.py
+Mar 16 12:54:48 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 12:54:49 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:54:49 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-htenfwjujiinumriottkpepbnciasjac ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678942489.2724216-7347-165040664640662/AnsiballZ_archive.py
+Mar 16 12:54:49 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 12:54:51 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:55:18 Server1 sudo: pam_unix(sudo:auth): authentication failure; logname=penas uid=1000 euid=0 tty=/dev/pts/1 ruser=penas rhost=  user=penas
+Mar 16 12:55:20 Server1 sudo: pam_unix(sudo:auth): conversation failed
+Mar 16 12:55:20 Server1 sudo: pam_unix(sudo:auth): auth could not identify password for [penas]
+Mar 16 12:55:20 Server1 sudo:    penas : 1 incorrect password attempt ; TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tklwaowqgljklbxkgwdtyngzgwvhsatw ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678942517.8265736-7388-166067344714172/AnsiballZ_setup.py
+Mar 16 12:55:26 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xuyplwcyhyzzuyshlsclvvylktecpeqz ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678942525.7420044-7403-201375057965690/AnsiballZ_setup.py
+Mar 16 12:55:26 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 12:55:26 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:55:26 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mkaqoiclzovxtpfiroxrapdaefwscldo ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678942526.5315993-7414-86723863100599/AnsiballZ_apt.py
+Mar 16 12:55:26 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 12:55:30 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:55:30 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fqcadzefjcxekbgldurnmbxdwvtonbae ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678942530.1024613-7423-171887938991701/AnsiballZ_command.py
+Mar 16 12:55:30 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 12:55:30 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:55:30 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ukkvnjwaqmgpssoqyvqvdaterohtofxn ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678942530.4172928-7432-117457821665877/AnsiballZ_apt.py
+Mar 16 12:55:30 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 12:55:31 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:55:31 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wmxngnrxswuepodaticnjafwamyjwjdh ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678942531.2009273-7441-119176117859942/AnsiballZ_archive.py
+Mar 16 12:55:31 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 12:55:33 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:56:14 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fuecppxdawmvskpmxkuknwajiehqxfvy ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678942574.1667051-7479-121165129854567/AnsiballZ_setup.py
+Mar 16 12:56:14 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 12:56:15 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:56:15 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hxszbwugsiicwzezwqrsxdqvoqddpaus ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678942575.165032-7490-69768140838382/AnsiballZ_apt.py
+Mar 16 12:56:15 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 12:56:18 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:56:18 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cogzewqvocjaxwcagwgqavalgrqvmcao ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678942578.6606119-7499-38343619199256/AnsiballZ_command.py
+Mar 16 12:56:18 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 12:56:18 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:56:19 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-temygvnqfvyaguoljxxlmewblqvcvzes ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678942578.9850416-7508-88100489969931/AnsiballZ_apt.py
+Mar 16 12:56:19 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 12:56:19 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:56:19 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ptnkomiohechkrvultmqdyjbopipjbct ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678942579.7739456-7517-163390601096461/AnsiballZ_archive.py
+Mar 16 12:56:19 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 12:56:22 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:56:39 Server1 sshd[8945]: Accepted publickey for penas from 192.168.56.102 port 45640 ssh2: RSA SHA256:ujZKkzyfc87PMBkXTUESxKLrIho/8Iy6tTycM2m8p1U
+Mar 16 12:56:39 Server1 sshd[8945]: pam_unix(sshd:session): session opened for user penas(uid=1000) by (uid=0)
+Mar 16 12:56:39 Server1 systemd-logind[652]: New session 15 of user penas.
+Mar 16 12:56:41 Server1 sshd[8983]: Received disconnect from 192.168.56.102 port 45640:11: disconnected by user
+Mar 16 12:56:41 Server1 sshd[8983]: Disconnected from user penas 192.168.56.102 port 45640
+Mar 16 12:56:41 Server1 sshd[8945]: pam_unix(sshd:session): session closed for user penas
+Mar 16 12:56:41 Server1 systemd-logind[652]: Session 15 logged out. Waiting for processes to exit.
+Mar 16 12:56:41 Server1 systemd-logind[652]: Removed session 15.
+Mar 16 12:56:48 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-udmuarcwthcdipcgcdqbfhwdvwjjhwyq ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678942608.059031-7551-130650416907700/AnsiballZ_setup.py
+Mar 16 12:56:48 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 12:56:48 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:56:48 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cheqpeedpjuvwiitxncjriwbvfkuplpa ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678942608.7853658-7562-121441955742924/AnsiballZ_apt.py
+Mar 16 12:56:48 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 12:56:52 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:56:52 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ddfhnuhbzhaugwvslczscuezaleanale ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678942612.1689715-7571-266843218587300/AnsiballZ_command.py
+Mar 16 12:56:52 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 12:56:52 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:56:52 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hrgsckzygfwllzrfvbxrpkijyfbdzfxm ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678942612.4784722-7580-39945850222960/AnsiballZ_apt.py
+Mar 16 12:56:52 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 12:56:53 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:56:53 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wqmvfmwzjyezarfuoktyxwtzcrubizvv ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678942613.2547064-7589-124192584461086/AnsiballZ_archive.py
+Mar 16 12:56:53 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 12:56:55 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:57:55 Server1 sshd[7221]: Received disconnect from 192.168.56.102 port 55180:11: disconnected by user
+Mar 16 12:57:55 Server1 sshd[7221]: Disconnected from user penas 192.168.56.102 port 55180
+Mar 16 12:57:55 Server1 sshd[7142]: pam_unix(sshd:session): session closed for user penas
+Mar 16 12:57:55 Server1 systemd-logind[652]: Session 14 logged out. Waiting for processes to exit.
+Mar 16 12:57:55 Server1 systemd-logind[652]: Removed session 14.
+Mar 16 12:59:29 Server1 gdm-password]: gkr-pam: unlocked login keyring
+Mar 16 13:11:26 Server1 sshd[9644]: Accepted publickey for penas from 192.168.56.102 port 38728 ssh2: RSA SHA256:ujZKkzyfc87PMBkXTUESxKLrIho/8Iy6tTycM2m8p1U
+Mar 16 13:11:26 Server1 sshd[9644]: pam_unix(sshd:session): session opened for user penas(uid=1000) by (uid=0)
+Mar 16 13:11:26 Server1 systemd-logind[652]: New session 16 of user penas.
+Mar 16 13:11:26 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hjlkppdslimwpxjyzhyozzdweointvrt ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943486.4283907-7805-243560054918742/AnsiballZ_setup.py
+Mar 16 13:11:26 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:11:27 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:11:27 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ubvoaqptinmgxwhvnooxqupobixmfemi ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943487.4573736-7823-123104399697254/AnsiballZ_apt.py
+Mar 16 13:11:27 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:11:31 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:11:31 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-goaqiztpdaelqjppcuilevyeexrymfaw ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943491.1827066-7832-245876920806317/AnsiballZ_command.py
+Mar 16 13:11:31 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:11:31 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:11:31 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ecqirdrytukdfrwbzugvdqqlvqvjngiz ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943491.4989107-7841-78753248079643/AnsiballZ_apt.py
+Mar 16 13:11:31 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:11:32 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:11:32 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ajhmuwrzirzzypbsokvzqixyrpeqghul ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943492.2904732-7850-33446933246946/AnsiballZ_archive.py
+Mar 16 13:11:32 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:11:34 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:11:35 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lkudjrcqyapaokaeovamvhbyovatfqqc ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943494.9372976-7859-101169698076884/AnsiballZ_slurp.py
+Mar 16 13:11:35 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:11:35 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:12:00 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vnqglyeyvruzcrcgpfnqzbpgdhrnamoj ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943520.3678284-7890-198311037619219/AnsiballZ_setup.py
+Mar 16 13:12:00 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:12:01 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:12:01 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-uakvwkkadqkyqpeyrcfammmdmjfkbyqc ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943521.1233523-7901-105449456296505/AnsiballZ_apt.py
+Mar 16 13:12:01 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:12:04 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:12:04 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-enasipkrstdwvfnjvmawlmmxixxksvia ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943524.2115924-7910-93872807084273/AnsiballZ_command.py
+Mar 16 13:12:04 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:12:04 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:12:04 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yewgmgyvfnraoeqynndigbhvyrwsmnst ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943524.5513313-7919-243443872055915/AnsiballZ_apt.py
+Mar 16 13:12:04 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:12:05 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:12:05 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-atxcnecfohcycfcyhrnduvlcykwxotus ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943525.3769338-7928-125796873759494/AnsiballZ_archive.py
+Mar 16 13:12:05 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:12:07 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:12:08 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zjkopfquaigvkovmsifsmbpzwhakggto ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943528.0026987-7937-196201486205385/AnsiballZ_slurp.py
+Mar 16 13:12:08 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:12:08 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:12:47 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tcrwflpyfufyffvyiycfkxpsozrpkjse ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943567.023424-7989-144244254865653/AnsiballZ_setup.py
+Mar 16 13:12:47 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:12:47 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:12:48 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qrhzxpmyxofhchxyjonctwaicowxnbcb ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943567.9828463-8000-4319541054647/AnsiballZ_apt.py
+Mar 16 13:12:48 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:12:51 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:12:51 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ycncnpviyxpercjxhgfolqtsksyxdpez ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943571.3488276-8009-137330473637846/AnsiballZ_command.py
+Mar 16 13:12:51 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:12:51 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:12:51 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bjimbywposhxucqbjmobdyqhuqhjgstw ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943571.656506-8020-149882567729791/AnsiballZ_apt.py
+Mar 16 13:12:51 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:12:52 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:12:52 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pmeuhtxsngrxyokgzbhrkwfrghxeaqjw ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943572.5499592-8029-99366565934577/AnsiballZ_archive.py
+Mar 16 13:12:52 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:12:55 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:12:55 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-giknvxzivlhrflpipzwidbybrifhdcaf ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943575.213858-8038-218231500979411/AnsiballZ_slurp.py
+Mar 16 13:12:55 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:12:55 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:13:55 Server1 sshd[9682]: Received disconnect from 192.168.56.102 port 38728:11: disconnected by user
+Mar 16 13:13:55 Server1 sshd[9682]: Disconnected from user penas 192.168.56.102 port 38728
+Mar 16 13:13:55 Server1 sshd[9644]: pam_unix(sshd:session): session closed for user penas
+Mar 16 13:13:56 Server1 systemd-logind[652]: Session 16 logged out. Waiting for processes to exit.
+Mar 16 13:13:56 Server1 systemd-logind[652]: Removed session 16.
+Mar 16 13:14:13 Server1 sshd[11407]: Accepted publickey for penas from 192.168.56.102 port 53278 ssh2: RSA SHA256:ujZKkzyfc87PMBkXTUESxKLrIho/8Iy6tTycM2m8p1U
+Mar 16 13:14:13 Server1 sshd[11407]: pam_unix(sshd:session): session opened for user penas(uid=1000) by (uid=0)
+Mar 16 13:14:13 Server1 systemd-logind[652]: New session 17 of user penas.
+Mar 16 13:14:14 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fdhxgojovjveopycjvphjpvfineihaby ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943653.6994395-8091-134617274620769/AnsiballZ_setup.py
+Mar 16 13:14:14 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:14:19 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:14:19 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pdvkicwfuglqlaosfkvsdgogxgikwnga ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943659.7188482-8106-1328911656872/AnsiballZ_apt.py
+Mar 16 13:14:19 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:14:22 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:14:22 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-akkfxnhjnjyreyoizrjkjhzukrphxawp ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943662.783141-8115-56776232151510/AnsiballZ_command.py
+Mar 16 13:14:22 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:14:23 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:14:23 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-iynoekpwtmvtbgcifftvvvmqmhizieuf ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943663.1421785-8125-100095794955727/AnsiballZ_apt.py
+Mar 16 13:14:23 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:14:23 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:14:24 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bvjasdigrdnmpxzkvjlighigitdozbua ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943663.9773493-8134-755976032997/AnsiballZ_archive.py
+Mar 16 13:14:24 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:14:26 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:14:26 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-czcaqgfyoyrrvwqtkiummexhyjydocus ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943666.5894907-8143-175250824292225/AnsiballZ_slurp.py
+Mar 16 13:14:26 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:14:26 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:14:59 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wftqfjyqccxztonhkcreeubybwhhfrar ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943699.0753708-8164-273444222199974/AnsiballZ_setup.py
+Mar 16 13:14:59 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:14:59 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:15:00 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ygyleeuagxgdetcewddjojncniiqtulo ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943699.843196-8175-203859837788912/AnsiballZ_apt.py
+Mar 16 13:15:00 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:15:02 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:15:03 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fuonosztsgvjabattiaeplnkxleepvju ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943702.9439557-8188-51361279730242/AnsiballZ_command.py
+Mar 16 13:15:03 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:15:03 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:15:03 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-efiuzfltgkpkgzfkttrfvzxdvqdvurfm ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943703.290554-8197-157537264959603/AnsiballZ_apt.py
+Mar 16 13:15:03 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
+Mar 16 13:15:04 Server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 13:15:04 Server1 sudo:    penas : TTY=pts/1 ; PWD=/home/penas ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ktqiyqnaesndinvszdhojxoksvkjrmee ; /usr/bin/python3 /home/penas/.ansible/tmp/ansible-tmp-1678943704.0884776-8206-242830903886914/AnsiballZ_archive.py
+Mar 16 13:15:04 Server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by penas(uid=1000)
