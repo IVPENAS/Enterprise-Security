@@ -1,0 +1,27 @@
+#Penas
+#Ansible-for-Log-Files
+
+- hosts: all
+  become: true
+  pre_tasks:
+
+    - name: Update and Upgrade Server1 (Ubuntu)
+      apt:
+        update_cache: yes
+        upgrade: 'yes'
+      when: ansible_distribution == "Ubuntu"
+
+    - name: dpkg fixing in Server1 (Ubuntu)
+      shell: |
+        dpkg --configure -a
+      when: ansible_distribution == "Ubuntu"
+
+    - name: install apache2 package
+      apt:
+        name: apache2
+
+    - name: Store file into /tmp/fetched/host.example.com/tmp
+      ansible.builtin.fetch:
+        src: /var/log/*
+        dest: /tmp/fetched
+
