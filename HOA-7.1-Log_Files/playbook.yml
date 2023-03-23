@@ -1,32 +1,32 @@
 #Penas
 #Ansible-for-Log-Files
 
-- hosts: all
-  become: true
-  pre_tasks:
+#- hosts: all
+#  become: true
+#  pre_tasks:
 
-    - name: Update and Upgrade Server1 (Ubuntu)
-      apt:
-        update_cache: yes
-        upgrade: 'yes'
-      when: ansible_distribution == "Ubuntu"
+#    - name: Update and Upgrade Server1 (Ubuntu)
+#      apt:
+#        update_cache: yes
+#        upgrade: 'yes'
+#      when: ansible_distribution == "Ubuntu"
 
-    - name: dpkg fixing in Server1 (Ubuntu)
-      shell: |
-        dpkg --configure -a
-      when: ansible_distribution == "Ubuntu"
+#    - name: dpkg fixing in Server1 (Ubuntu)
+#      shell: |
+#        dpkg --configure -a
+#      when: ansible_distribution == "Ubuntu"
 
-    - name: install apache2 package
-      apt:
-        name: apache2
+#    - name: install apache2 package
+#      apt:
+#        name: apache2
 
-    - name: Compressing log files
-      archive:
-        path: /var/log/*
-        dest: /tmp/logs.tar.gz
+#    - name: Compressing log files
+#      archive:
+#        path: /var/log/*
+#        dest: /tmp/logs.tar.gz
 
-    - name: Transfering the log files to Manage Node
-      fetch:
-        src: /tmp/logs.tar.gz
-        dest: /home/penas/Enterprise-Security/HOA-7.1-Log_files/Log_Files/
-        flat: yes
+#    - name: Transfering the log files to Manage Node
+#      fetch:
+#        src: /tmp/logs.tar.gz
+#        dest: /home/penas/Enterprise-Security/HOA-7.1-Log_files/Log_Files/
+#        flat: yes
