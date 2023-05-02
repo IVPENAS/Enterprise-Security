@@ -1,0 +1,85 @@
+#Penas
+#Midterm Exam
+
+- hosts: all
+  become: true
+  pre_tasks:
+
+    - name: Update and Upgrade Server1 (Ubuntu)
+      apt:
+        update_cache: yes
+        upgrade: 'yes'
+      when: ansible_distribution == "Ubuntu"
+
+    - name: Installing dnf and epel-release
+      yum:
+        name:
+          - epel-release
+          - dnf
+      when: ansible_distribution == "CentOS"
+
+    - name: Update and Upgrade CentOS Server
+      dnf:
+        update_cache: yes
+        name: "*"
+        state: latest
+      when: ansible_distribution == "CentOS"
+
+    - name: dpkg fixing in Server1 (Ubuntu)
+      shell: |
+        dpkg --configure -a
+      when: ansible_distribution == "Ubuntu"
+
+- name: Configure firewall
+  hosts: servers
+  become: true
+  tasks:
+
+  - name: Install Firewalld for Ubuntu
+    apt:
+      name: firewalld
+      state: present
+    when: ansible_distribution == "Ubuntu"
+
+  - name: Installing Firewalld (CentOS)
+    when: ansible_os_family == "RedHat"
+    yum:
+      name: firewalld
+      state: present
+
+  - name: Enable Firewalld (CentOS)
+    when: ansible_os_family == "RedHat"
+    service:
+      name: firewalld
+      enabled: yes
+      state: started
+
+  - name: Allow incoming SSH connections (CentOS)
+    when: ansible_os_family == "RedHat"
+    firewalld:
+      service: ssh
+      permanent: true
+      state: enabled
+
+  - name: Enable Firewalld (CentOS)
+    when: ansible_os_family == "RedHat"
+    firewalld:
+      state: enabled
+
+  - name: Enable Firewalld (Ubuntu)
+    firewalld:
+      state: enabled
+    when: ansible_distribution == "Ubuntu"
+
+# Verification
+
+  - name: Ensure firewall package is intalled
+    ansible.builtin.dnf:
+      name: firewalld
+      state: present
+
+  - name: Ensure firewall service is up and running
+    ansible.builtin.service:
+      name: firewalld
+      state: started
+      enabled: yes
