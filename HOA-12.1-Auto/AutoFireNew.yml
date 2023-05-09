@@ -1,0 +1,49 @@
+#Penas
+#HOA-12.1-Automation
+
+- name: Blocking of IP address
+  hosts:
+    - Server-1
+    - Centos
+  become: true
+
+  tasks:
+
+#Ubuntu
+    - name: Block IP address (Server 1 - Ubuntu)
+      ufw:
+        rule: deny
+        proto: any
+        from_ip: 192.168.56.130
+      when: ansible_distribution == "Ubuntu"
+
+    - name: Check of Status on (Server 1 - Ubuntu)
+      shell: ufw status verbose
+      register: ubuntu_fw_stat
+      when: ansible_distribution == "Ubuntu"
+
+    - name: Verification of firewall status in playrun (Server 1 - Ubuntu)
+      debug:
+        var: ubuntu_fw_stat.stdout_lines
+      when: ansible_distribution == "Ubuntu"
+
+#Cent-OS
+
+    - name: Block IP address (Centos)
+      firewalld:
+        permanent: true
+        state: enabled
+        zone: public
+        source: 192.168.56.129
+      when: ansible_distribution == "CentOS"
+
+    - name: Checking of Status (Centos)
+      shell: firewall-cmd --zone=public --list-all
+      register: centos_fw_stat
+      when: ansible_distribution == "CentOS"
+
+    - name: Verification of firewall status in playrun (Centos)
+      debug:
+        var: centos_fw_stat.stdout_lines
+      when: ansible_distribution == "CentOS"
+
